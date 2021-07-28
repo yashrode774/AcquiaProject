@@ -1,24 +1,24 @@
-name: tests-authentication
+# name: tests-authentication
 
-on:
-  pull_request:
-    #paths: ##Incase I want to specify to run this test exclusively
-     # - 'AuthenticationService/**' ##for PRs in authentication service
+# on:
+#   pull_request:
+#     #paths: ##Incase I want to specify to run this test exclusively
+#      # - 'AuthenticationService/**' ##for PRs in authentication service
   
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: cd AuthenticationService/client && npm install && npm run test:ci
-      - run: cd AuthenticationService/server && npm install && npm run test:ci
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - run: cd AuthenticationService/client && npm install && npm run test:ci
+#       - run: cd AuthenticationService/server && npm install && npm run test:ci
 
 
-# npm run test doesn't have an exit condition, new script "test:ci"
-# creted to run test suite exactly once and automatically exit 
+# # npm run test doesn't have an exit condition, new script "test:ci"
+# # creted to run test suite exactly once and automatically exit 
 
-#################
+# #################
 
-######TODO: edit package.json of AuthenticationService as following:
-## Under "scripts" add 
-## "test:ci": "jest"
+# ######TODO: edit package.json of AuthenticationService as following:
+# ## Under "scripts" add 
+# ## "test:ci": "jest"
