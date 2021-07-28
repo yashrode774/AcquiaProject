@@ -1,21 +1,21 @@
-name: tests-land-management
+# name: tests-land-management
 
-on:
-  pull_request
+# on:
+#   pull_request
   
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: cd LandManagementService && npm install && npm run test:ci
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - run: cd LandManagementService && npm install && npm run test:ci
 
 
-# npm run test doesn't have an exit condition, new script "test:ci"
-# creted to run test suite exactly once and automatically exit 
+# # npm run test doesn't have an exit condition, new script "test:ci"
+# # creted to run test suite exactly once and automatically exit 
 
-#################
+# #################
 
-######TODO: edit package.json of LandManagementService as following:
-## Under "scripts" add 
-## "test:ci": "jest"
+# ######TODO: edit package.json of LandManagementService as following:
+# ## Under "scripts" add 
+# ## "test:ci": "jest"
