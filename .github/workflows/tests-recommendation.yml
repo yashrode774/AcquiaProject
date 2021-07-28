@@ -1,0 +1,21 @@
+name: tests-recommendation
+
+on:
+  pull_request
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: cd RecommendationService && npm install && npm run test:ci
+
+
+# npm run test doesn't have an exit condition, new script "test:ci"
+# creted to run test suite exactly once and automatically exit 
+
+#################
+
+######TODO: edit package.json of RecommendationService as following:
+## Under "scripts" add 
+## "test:ci": "jest"
