@@ -22,8 +22,9 @@ function ProductInfo(props) {
                 <Descriptions.Item label="Price (Rs)"> {Product.price}</Descriptions.Item>
                 <Descriptions.Item label="Area (Sq Km)">{Product.area}</Descriptions.Item>
                 <Descriptions.Item label="Region"> {Product.region}</Descriptions.Item>
-                <Descriptions.Item label="Description"> {Product.description}</Descriptions.Item>
                 <Descriptions.Item label="Contact"> {Product.contactdetails}</Descriptions.Item>
+                <Descriptions.Item label="Description"> {Product.description}</Descriptions.Item>
+              
             </Descriptions>
 
             <br />
