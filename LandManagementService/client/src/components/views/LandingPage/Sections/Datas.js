@@ -36,31 +36,31 @@ const price = [
 const continents = [
     {
         "_id": 1,
-        "name": "Africa"
+        "name": "Delhi"
     },
     {
         "_id": 2,
-        "name": "Europe"
+        "name": "Mumbai"
     },
     {
         "_id": 3,
-        "name": "Asia"
+        "name": "Kolkata"
     },
     {
         "_id": 4,
-        "name": "North America"
+        "name": "Chennai"
     },
     {
         "_id": 5,
-        "name": "South America"
+        "name": "Bangalore"
     },
     {
         "_id": 6,
-        "name": "Australia"
+        "name": "Hyderabad"
     },
     {
         "_id": 7,
-        "name": "Antarctica"
+        "name": "Pune"
     }
 ]
 
