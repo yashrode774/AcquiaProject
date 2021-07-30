@@ -44,6 +44,7 @@ const continents = [
     },
     {
         "_id": 3,
+<<<<<<< HEAD
         "name": "Kolkata"
     },
     {
@@ -61,6 +62,25 @@ const continents = [
     {
         "_id": 7,
         "name": "Pune"
+=======
+        "name": "Pune"
+    },
+    {
+        "_id": 4,
+        "name": "Kolkata"
+    },
+    {
+        "_id": 5,
+        "name": "Chennai"
+    },
+    {
+        "_id": 6,
+        "name": "Bangalore"
+    },
+    {
+        "_id": 7,
+        "name": "Hyderabad"
+>>>>>>> 6ab1bd2d3f86f5fe0e35ad1dc89d0107a101076b
     }
 ]
 
